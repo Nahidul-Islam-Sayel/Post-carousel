@@ -1,0 +1,755 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/blocks/post-carousel/editor.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/responsive/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.styble-responsive {
+  margin-left: 10px;
+}
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/rangeControl/editor.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/buttonGroup/editor.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.styble-tab-panel .styble-button-group {
+  width: 100%;
+}
+.styble-tab-panel .styble-button-group-list {
+  display: flex;
+  width: 100%;
+}
+.styble-tab-panel .styble-button-group-list {
+  border: 1px solid #D7DADE;
+}
+.styble-tab-panel .styble-button-group-list button {
+  padding: 0px;
+  background-color: #ffffff;
+  color: #1E1E1E;
+  box-shadow: none;
+  width: 100%;
+  height: 32px;
+  justify-content: center;
+  position: relative;
+}
+.styble-tab-panel .styble-button-group-list button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-button-group-list button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styble-tab-panel .styble-button-group-list button p {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -40px;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: #757575;
+  color: #fff;
+  padding: 8px 10px;
+  white-space: nowrap;
+  font-size: 10px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.styble-tab-panel .styble-button-group-list button p::after {
+  position: absolute;
+  content: "";
+  top: 30px;
+  right: 50%;
+  transform: translateX(50%);
+  border-width: 10px;
+  border-color: #757575 transparent transparent transparent;
+  border-style: solid;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.styble-tab-panel .styble-button-group-list button:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.styble-tab-panel .styble-button-group-list button:hover p::after {
+  opacity: 1;
+  visibility: visible;
+}
+.styble-tab-panel .styble-button-group-list button.active span {
+  background-color: #008DB4;
+  color: #fff;
+  width: calc(100% - 4px);
+  height: 85%;
+  margin-top: 1px;
+}
+.styble-tab-panel .styble-button-group-list button.active span svg {
+  fill: #fff;
+}
+.styble-tab-panel .styble-button-group .has-border button {
+  border-left: 1px solid #D7DADE;
+  margin-left: 0;
+}
+.styble-tab-panel .styble-button-group .has-border button:first-child {
+  border-left: 0;
+}
+.styble-tab-panel .styble-button-group.button-style-2 {
+  justify-content: space-between;
+  align-items: center;
+}
+.styble-tab-panel .styble-button-group.button-style-2 .styble-button-group-list {
+  width: 130px;
+}
+.styble-tab-panel .styble-button-group.button-style-2 .styble-component-title,
+.styble-tab-panel .styble-button-group.button-style-2 .styble-component-top {
+  margin-bottom: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/toggle/toggle.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.styble-tab-panel .styble-toggle .components-flex {
+  flex-direction: row-reverse;
+}
+.styble-tab-panel .styble-toggle .components-toggle-control__label {
+  margin-bottom: 0px;
+}
+.styble-tab-panel .styble-toggle .components-form-toggle.is-checked .components-form-toggle__track {
+  background: #008DB4;
+}
+.styble-tab-panel .styble-toggle .components-form-toggle.is-checked .components-form-toggle__thumb {
+  background: #fff;
+}
+.styble-tab-panel .styble-toggle .components-form-toggle .components-form-toggle__thumb {
+  background: #757575;
+  border-color: #757575;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/typography/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.styble-typography-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.styble-typography-btn button {
+  border: 1px solid #DDD;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.styble-typography-btn button:focus:not(:disabled) {
+  box-shadow: none;
+  outline: none;
+}
+.styble-typography-btn.active button {
+  background-color: #008DB4;
+  color: #fff;
+  border-color: #008DB4;
+}
+.styble-typography-btn button:hover {
+  border-color: #008DB4;
+}
+.styble-typography-fonts {
+  display: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px 15px 10px;
+  border-radius: 4px;
+  box-shadow: 0px 1.2px 2px -0.2px rgba(0, 0, 0, 0.1), 0px 0.3px 4px -0.5px rgba(0, 0, 0, 0.1);
+}
+.styble-typography-fonts #font-picker {
+  width: 100%;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+.styble-typography-fonts div[id^=font-picker] .dropdown-button,
+.styble-typography-fonts div[id^=font-picker] .dropdown-button:hover,
+.styble-typography-fonts div[id^=font-picker] ul,
+.styble-typography-fonts div[id^=font-picker] .dropdown-button:focus {
+  background: #fff;
+}
+.styble-typography-fonts div[id^=font-picker] ul li button:hover,
+.styble-typography-fonts div[id^=font-picker] ul li button:focus,
+.styble-typography-fonts div[id^=font-picker] ul li button.active-font {
+  background: #f3f3f3;
+}
+.styble-typography-fonts.open {
+  display: block;
+}
+.styble-typography input[type=text]:focus {
+  box-shadow: none;
+  outline: none;
+}
+.styble-typography .css-1u9des2-indicatorSeparator {
+  display: none;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/color/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+/* Color controls. */
+.styble-color-picker {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.styble-color-picker .styble-component-title {
+  margin-bottom: 0 !important;
+}
+.styble-color-picker p {
+  margin-bottom: 0;
+}
+.styble-color-picker .components-dropdown,
+.styble-color-picker button.components-button {
+  padding: 0;
+  height: 30px;
+}
+.styble-color-picker .components-dropdown :focus:not(:disabled),
+.styble-color-picker button.components-button :focus:not(:disabled) {
+  box-shadow: none;
+  outline: none;
+}
+.styble-color-picker .components-dropdown span.component-color-indicator,
+.styble-color-picker button.components-button span.component-color-indicator {
+  width: 30px;
+  height: 30px;
+}
+.styble-color-picker-palette {
+  display: flex;
+  margin-left: 15px;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.styble-color-picker-palette li {
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  margin: 0;
+}
+.styble-color-picker-palette li button {
+  width: 100%;
+  padding: 0;
+}
+.styble-color-picker-palette li button:focus:not(:disabled) {
+  box-shadow: none;
+  outline: none;
+}
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/background/editor.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.styble-tab-panel .styble-background .components-circular-option-picker {
+  position: absolute;
+  left: -11px;
+  display: none;
+}
+.styble-tab-panel .styble-background .components-circular-option-picker button {
+  padding: 0;
+  height: 14px;
+  margin-right: 16px;
+}
+.styble-tab-panel .styble-background .components-circular-option-picker button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-background .components-circular-option-picker button svg {
+  fill: #000;
+}
+.styble-tab-panel .styble-background .components-circular-option-picker button:hover svg {
+  fill: #008DB4;
+}
+.styble-tab-panel .styble-background legend {
+  display: none;
+}
+.styble-tab-panel .styble-background .styble-component-title {
+  margin-bottom: 0px;
+}
+.styble-tab-panel .styble-background-control {
+  justify-content: space-between;
+  align-items: center;
+}
+.styble-tab-panel .styble-background-left {
+  display: flex;
+}
+.styble-tab-panel .styble-background-left button {
+  padding: 0;
+  border-radius: 2px !important;
+  border: none;
+  box-shadow: none;
+  height: auto;
+  border: 1px solid transparent;
+  margin-left: 2px !important;
+  width: 26px;
+  height: 25px;
+  justify-content: center;
+  position: relative;
+}
+.styble-tab-panel .styble-background-left button span {
+  display: inline-flex;
+}
+.styble-tab-panel .styble-background-left button p {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  top: -40px;
+  background-color: #757575;
+  color: #fff;
+  padding: 8px 10px;
+  white-space: nowrap;
+  font-size: 11px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+.styble-tab-panel .styble-background-left button::after {
+  position: absolute;
+  content: "";
+  top: -10px;
+  left: 2px;
+  border-width: 10px;
+  border-color: #757575 transparent transparent transparent;
+  border-style: solid;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.styble-tab-panel .styble-background-left button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-background-left button.active {
+  border: 1px solid #008DB4;
+}
+.styble-tab-panel .styble-background-left button:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+.styble-tab-panel .styble-background-left button:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+/*!*********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/image/editor.scss ***!
+  \*********************************************************************************************************************************************************************************************************************************************************/
+.styble-media-control__wrapper {
+  height: 130px;
+  border-radius: 3px;
+  border: 1px solid #E6E7E9;
+  position: relative;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.styble-media-control__wrapper .styble-media-video {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 45px;
+  color: #2f8db4;
+}
+
+.styble-media-control__clickable {
+  cursor: pointer;
+  border: unset;
+  color: transparent;
+  background-color: transparent;
+}
+
+.styble-media-control__button {
+  width: 18px;
+  height: 18px;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.styble-media-control__button--add {
+  background-color: #ccc;
+}
+
+.styble-media-control__clickable--add {
+  width: 100%;
+  height: 100%;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styble-media-control__clickable--replace {
+  width: 100%;
+  height: 25px;
+  color: #50575E;
+  background-color: #F0F0F1;
+  position: absolute;
+  bottom: -1px;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.styble-media-control__button--close {
+  background-color: #F0F0F1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.styble-media-control__clickable--add span,
+.styble-media-control__clickable--close span {
+  color: #50575E;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.styble-infobox .styble-infobox-num,
+.styble-infobox .styble-infobox-icon {
+  line-height: 0;
+}
+
+.styble-infobox .styble-infobox-image {
+  flex-shrink: 0;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/selectField/editor.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.styble-tab-panel .styble-button-group {
+  width: 100%;
+}
+.styble-tab-panel .styble-button-group-list {
+  display: flex;
+  width: 100%;
+}
+.styble-tab-panel .styble-button-group-list {
+  border: 1px solid #D7DADE;
+}
+.styble-tab-panel .styble-button-group-list button {
+  padding: 0px;
+  background-color: #ffffff;
+  color: #1E1E1E;
+  box-shadow: none;
+  width: 100%;
+  height: 32px;
+  justify-content: center;
+}
+.styble-tab-panel .styble-button-group-list button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-button-group-list button span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.styble-tab-panel .styble-button-group-list button.active span {
+  background-color: #008DB4;
+  color: #fff;
+  width: calc(100% - 4px);
+  height: 85%;
+  margin-top: 1px;
+}
+.styble-tab-panel .styble-button-group-list button.active span svg {
+  fill: #fff;
+}
+.styble-tab-panel .styble-button-group .has-border button {
+  border-left: 1px solid #D7DADE;
+  margin-left: 0;
+}
+.styble-tab-panel .styble-button-group .has-border button:first-child {
+  border-left: 0;
+}
+.styble-tab-panel .styble-button-group.button-style-2 {
+  justify-content: space-between;
+  align-items: center;
+}
+.styble-tab-panel .styble-button-group.button-style-2 .styble-button-group-list {
+  width: 130px;
+}
+.styble-tab-panel .styble-button-group.button-style-2 .styble-component-title,
+.styble-tab-panel .styble-button-group.button-style-2 .styble-component-top {
+  margin-bottom: 0;
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/spacing/editor.scss ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.styble-spacing-part-2 {
+  display: flex;
+}
+.styble-spacing-part-2 label {
+  font-size: 11px;
+  display: inline-block;
+  color: #8C8F94;
+  margin-top: 4px;
+}
+.styble-spacing-part-2 input {
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  border-radius: 0;
+  border-right: 0;
+  border-color: #DDD;
+}
+.styble-spacing-part-2 input:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+  border-color: #DDD;
+}
+.styble-spacing-all {
+  width: 140px;
+  height: 30px;
+}
+.styble-spacing-all button {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border-radius: 0;
+  justify-content: center;
+  border: 1px solid #DDD;
+}
+.styble-spacing-all button.active {
+  background-color: #008DB4;
+  border-color: transparent;
+}
+.styble-spacing-all button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-spacing-left.box input, .styble-spacing-right.box input {
+  border-right: 1px solid #DDD;
+  margin-right: 0;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/border/editor.scss ***!
+  \**********************************************************************************************************************************************************************************************************************************************************/
+.styble-tab-panel .styble-border .components-select-control {
+  flex-direction: row;
+  align-items: center;
+}
+.styble-tab-panel .styble-border .components-select-control .components-input-control__container {
+  flex: 0;
+}
+.styble-tab-panel .styble-border .components-select-control .components-select-control__input {
+  width: 120px;
+}
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/components/tabControls/editor.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block-editor-block-inspector .styble-tab-panel .components-base-control:last-child {
+  margin-bottom: 0px;
+}
+
+div:has(> .styble-tab-panel) ~ div:has(> .block-editor-block-inspector__advanced) {
+  display: none;
+}
+
+.styble-tab-panel .components-tab-panel__tabs-item:focus:not(:disabled) {
+  box-shadow: none;
+}
+.styble-tab-panel .components-tab-panel__tabs {
+  justify-content: center;
+}
+.styble-tab-panel .components-tab-panel__tabs > button {
+  padding: 0;
+}
+.styble-tab-panel .components-tab-panel__tabs button {
+  background-color: #008DB4;
+  color: #fff;
+  height: 40px;
+  width: 100%;
+  justify-content: center;
+}
+.styble-tab-panel .components-tab-panel__tabs button:not(:last-child) {
+  border-right: 1px solid #fff;
+}
+.styble-tab-panel .components-tab-panel__tabs button span {
+  display: flex;
+  align-items: center;
+}
+.styble-tab-panel .components-tab-panel__tabs button span svg {
+  margin-right: 4px;
+  fill: #fff;
+}
+.styble-tab-panel .components-tab-panel__tabs button.active-tab {
+  background-color: #ffffff;
+  color: #008DB4;
+  border-bottom-color: transparent;
+  border-top: 2px solid;
+}
+.styble-tab-panel .components-tab-panel__tabs button.active-tab span svg {
+  fill: #008DB4;
+}
+.styble-tab-panel .components-panel__body.is-opened > .components-panel__body-title {
+  background-color: #F0F0F0;
+  margin-bottom: 12px;
+}
+.styble-tab-panel .components-panel__body .components-panel__body-title button:focus:not(:disabled) {
+  box-shadow: none;
+  outline: none;
+}
+.styble-tab-panel .styble-accordion {
+  margin: 12px 0;
+}
+.styble-tab-panel .styble-component-mb {
+  margin-bottom: 24px;
+}
+.styble-tab-panel .styble-component-mb:last-child {
+  margin-bottom: 0px;
+}
+.styble-tab-panel .styble-component-top {
+  display: flex;
+}
+.styble-tab-panel .styble-ranger-title,
+.styble-tab-panel .components-base-control__label,
+.styble-tab-panel .components-input-control__label,
+.styble-tab-panel .components-toggle-control__label,
+.styble-tab-panel .styble-component-title {
+  text-transform: uppercase;
+  color: #757575;
+  font-weight: 700;
+  font-size: 11px;
+  margin-bottom: 8px;
+  display: inline-block;
+}
+.styble-tab-panel .components-input-control__label {
+  margin-bottom: 0;
+  font-weight: 700 !important;
+}
+.styble-tab-panel .styble-header-control {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.styble-tab-panel .styble-header-control-left {
+  display: flex;
+}
+.styble-tab-panel .styble-header-control-right {
+  display: flex;
+  margin-top: 2px;
+}
+.styble-tab-panel .styble-header-control-reset {
+  height: 18px;
+  padding: 0;
+  margin-right: 10px;
+}
+.styble-tab-panel .styble-header-control-reset.active {
+  color: #008DB4;
+}
+.styble-tab-panel .styble-header-control-reset:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-units {
+  position: relative;
+  color: #8C8F94;
+}
+.styble-tab-panel .styble-units-btn {
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  z-index: 999;
+  margin-top: 2px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.styble-tab-panel .styble-units:hover .styble-units-btn {
+  opacity: 1;
+  visibility: visible;
+}
+.styble-tab-panel .styble-units:hover span {
+  border-color: #008DB4;
+  color: #008DB4;
+}
+.styble-tab-panel .styble-units:hover span svg {
+  fill: #008DB4;
+}
+.styble-tab-panel .styble-units span {
+  display: inline-block;
+  font-size: 10px;
+  padding: 0px;
+  width: 23px;
+  height: 20px;
+  border: 1px solid #8C8F94;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.styble-tab-panel .styble-units span svg {
+  fill: #8C8F94;
+}
+.styble-tab-panel .styble-units span.box-unit {
+  width: 45px !important;
+}
+.styble-tab-panel .styble-units button {
+  padding: 0;
+  width: 23px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  font-size: 10px;
+  border: none;
+  color: #8C8F94;
+  border-radius: 0;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-units button:focus:not(:disabled) {
+  outline: none;
+  box-shadow: none;
+}
+.styble-tab-panel .styble-units button.active {
+  background-color: #008DB4;
+  color: #fff;
+}
+.styble-tab-panel .styble-units.box .styble-units-btn button {
+  width: 45px;
+}
+
+p.styble-child-block-notice {
+  padding: 20px;
+  margin: 0 16px 16px;
+  background-color: #f1f1f1;
+}
+
+.edit-post-editor__list-view-panel-content .is-selected .styble-block-icon svg {
+  fill: #fff !important;
+}
+
+.styble-block-icon {
+  display: inline-flex;
+}
+.styble-block-icon svg {
+  fill: #008DB4 !important;
+}
+
+.block-editor-block-inspector .styble-tab-panel .components-panel__body:first-child {
+  border-top: none;
+}
+
+/*# sourceMappingURL=index.css.map*/
